@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Profile</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  </head>
+  <body style="background-color:rgba(78, 78, 78, 0.237);position: relative;">
+    <!---navbar-->
+    <nav class="navbar navbar-dark" style="background-color: rgb(76, 76, 76);">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Vestia Zeta</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Galery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#">543221013@smktelkom-bjb.sch.id</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!--jumbotron-->
+    <div class="jumbotron text-center">
+        <img src="zeta.png" alt="Vestia Zeta" width="200">
+        <h1 class="display-4">Muhammad Royyan</h1>
+        <p class="lead">Vestia Oyyan</p>
+    </div>
+    <!--about-->
+    <div id="about" class="text-center py-5" style="background-color: rgba(128, 128, 128, 0.418)">
+        <div class="container">
+          <div class="row mb-3">
+            <div class="col">
+              <h2>About Me</h2>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-4">
+              <p>Haloo! Perkenalkan Nama Saya Muhammad Royyan Biasanya Dipanggil Oyyan, Saya Lahir Di Palangkaraya Pada Tanggal 27/05/2007.</p>
+            </div>
+            <div class="col-md-4">
+              <p>Hobi Saya Menggambar,Nonton Anime dan Vtuber,Memasak,Bermain Game,Mendengarkan Musik. Vestia Zeta <3 </p>
+            </div>
+          </div>
+        </div>
+      </div>
+<!---Galery-->
+<div id="gallery" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center mb-3">
+          <h2>My Gallery</h2>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-4 mb-3">
+          <div class="card" style="width: 18rem">
+            <img src="zeta.png" class="card-img-top" alt="Poto Saya" />
+            <div class="card-body">
+              <h5 class="card-title">Vestia Zeta</h5>
+              <p class="card-text">HoloID Gen 3 Agent 7 Pertama Di Dunia.</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#gambar-pertama">View Image</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mb-3">
+          <div class="card" style="width: 18rem">
+            <img src="Oyyan.jpeg" class="card-img-top" alt="Poto Saya" />
+            <div class="card-body">
+              <h5 class="card-title">Oyyan</h5>
+              <p class="card-text">Ehe</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#gambar-kedua">View Image</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 mb-3">
+          <div class="card" style="width: 18rem">
+            <img src="bazo.png" class="card-img-top" alt="Poto Saya" />
+            <div class="card-body">
+              <h5 class="card-title">Bazo Gangster</h5>
+              <p class="card-text">Maskot Zeta</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#gambar-ketiga">View Image</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!---modal1-->
+  <div class="modal fade" id="gambar-pertama" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Vestia Zeta</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="zeta.png" class="img-thumbnail item"/>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!---modal2-->
+  <div class="modal fade" id="gambar-kedua" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Oyyan</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="Oyyan.jpeg" class="img-thumbnail" />
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!---modal3-->
+  <div class="modal fade" id="gambar-ketiga" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Bazo Gangster</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="bazo.png" class="img-thumbnail" />
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!---footer-->
+    <footer class="py-3" style="background-color: rgb(99, 98, 98);color: white;">
+        <div class="container text-center">Created By Oyyan</div>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <audio controls autoplay="autoplay" loop style="display:none;">
+        <source src="Lofi.mp3">
+    </audio>
+    </body>
+</html>
